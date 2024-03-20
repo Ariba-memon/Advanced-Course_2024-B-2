@@ -9,7 +9,7 @@
 //var  
 //variable
 
-//= assning operator
+//= assigning operator
 //a 
 // var a = "Hello world" // string 
 // console.log(a)
