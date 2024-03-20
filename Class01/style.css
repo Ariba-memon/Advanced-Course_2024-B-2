@@ -1,0 +1,14 @@
+/* p{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: brown;
+}
+h1 ,h2 ,h3{
+ color: aqua;
+ background-color: blueviolet;
+} */
+* {
+   background-color: brown;
+   text-align: center;
+   color: white;
+}
