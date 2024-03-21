@@ -1,0 +1,28 @@
+/* .container{
+    display: flex;
+    flex-direction: row;
+} */
+
+.flex-container{
+    display: flex;
+ 
+   
+}
+
+.flex-one{
+ background-color: aqua;
+ border-color: brown;
+ border-style: dotted;
+}
+
+.flex-two{
+    background-color: rgb(11, 194, 194);
+    border-color: rgb(17, 6, 6);
+    border-style: dotted;
+   }
+
+   .flex-three{
+    background-color: rgb(20, 72, 15);
+    border-color: rgb(17, 6, 6);
+    border-style: dotted;
+   }
