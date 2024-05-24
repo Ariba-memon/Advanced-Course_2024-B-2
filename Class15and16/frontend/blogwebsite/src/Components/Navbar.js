@@ -16,16 +16,16 @@ const Navbar = () => {
             <Link to = '/'>Home</Link>
         </li>
         <li className='inline-block mx-5'>
-            <Link to = '/about'>About</Link>
+            <Link to = '/About'>About</Link>
         </li>
         <li className='inline-block mx-5'>
-            <Link to = '/contact'>Contact</Link>
+            <Link to = '/Contact'>Contact</Link>
         </li>
         <li className='inline-block mx-5'>
-            <Link to = '/post'>PostYourBlog</Link>
+            <Link to = '/Post'>PostYourBlog</Link>
         </li>
         <li className='inline-block mx-5'>
-            <Link to = '/read'>ReadBlogs</Link>
+            <Link to = '/Read'>ReadBlogs</Link>
         </li>
        
        </ul>
