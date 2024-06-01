@@ -47,6 +47,6 @@ app.post('/api/articles/:name/comments', async (req,res) =>{
 connectToDb(() =>{
     console.log('Sucesss');
     app.listen(6000,() =>{
-        console.log('Server is listening on 7000');
+        console.log('Server is listening on 6000');
     })
 })

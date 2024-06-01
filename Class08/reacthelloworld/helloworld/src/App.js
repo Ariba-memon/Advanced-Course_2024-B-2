@@ -17,6 +17,7 @@ function App() {
   <h1>{Counter}</h1>
   <button onClick={Inc}>Increment</button>
   <button onClick={Dec}>Decrement</button>
+  
    </div>
   );
 }
