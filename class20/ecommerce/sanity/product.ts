@@ -41,6 +41,11 @@ export const product  = defineType({
             type: "string"
         }),
         defineField({
+            name: "image",
+            title: "Image",
+            type: "image"
+        }),
+        defineField({
             name: "slug",
             title: "Slug",
             type: "slug",
@@ -61,20 +66,20 @@ export const product  = defineType({
                 }
             ]
         }),
-        defineField({
-            name: "image",
-            title: "Image",
-            type: "array",
-            of: [
-               {
-                 name: "img",
-                type: "image",
-                title: "Image",
-                options:{
-                    hotspot :true
-                }
-               }
-            ]
-        })
+        // defineField({
+        //     name: "image",
+        //     title: "Image",
+        //     type: "array",
+        //     of: [
+        //        {
+        //          name: "img",
+        //         type: "image",
+        //         title: "Image",
+        //         options:{
+        //             hotspot :true
+        //         }
+        //        }
+        //     ]
+        // })
     ]
 })

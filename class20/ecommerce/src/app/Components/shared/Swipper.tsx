@@ -9,7 +9,7 @@ import Slider3 from '../../../../public/images/slider3.webp'
 
 export default () => {
     return (
-        <><h1 className='text-center font-bold text-5xl m-4 text-navy'>Our Famous Products</h1><Swiper
+        <><h1 className='text-center font-bold text-3xl m-4 text-navy'>Our Famous Products</h1><Swiper
             spaceBetween={50}
             slidesPerView={3}
 
